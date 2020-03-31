@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body {
-  background: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
 }
 
 header {
@@ -27,6 +33,10 @@ header nav {
   color: #fff;
   min-width: 980px;
   font-size: 14px;
+}
+
+nav img {
+  height: 24px;
 }
 
 nav > span {

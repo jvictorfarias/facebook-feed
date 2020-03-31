@@ -24,6 +24,15 @@ class PostList extends Component {
             },
             comment: 'Mas é lindo esse meu bb <3',
           },
+          {
+            id: 2,
+            author: {
+              name: 'Nizokashi',
+              avatar:
+                'https://instagram.fjdo10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/88925642_891212234673887_7390209617587863552_n.jpg?_nc_ht=instagram.fjdo10-1.fna.fbcdn.net&_nc_ohc=uNawzM9OHhAAX8yilyY&oh=77c2c58086ac7f1258e04408dcc31020&oe=5EAB80E5',
+            },
+            comment: 'Para tudo e vá assistir Rave cmg',
+          },
         ],
       },
     ],
