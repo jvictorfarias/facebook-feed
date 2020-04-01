@@ -59,6 +59,8 @@ nav > div i {
 }
 
 .post {
+  display: block;
+  height: auto;
   margin-top: 20px;
   border-radius: 8px;
   background: white;
@@ -103,12 +105,14 @@ nav > div i {
 }
 
 .divider {
+  display: inline-block;
   width: 100%;
   height: 1px;
   background: #eeeeee;
 }
 
 .post-comments {
+  height: auto;
   margin-top: 20px;
 }
 
