@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function PostHeader({ name, avatar, date }) {
   return (
@@ -13,5 +14,11 @@ function PostHeader({ name, avatar, date }) {
     </div>
   );
 }
+
+PostHeader.propTypes = {
+  name: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  date: PropTypes.object.isRequired,
+};
 
 export default PostHeader;
